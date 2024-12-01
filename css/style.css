@@ -12,15 +12,20 @@ img {
 }
 
 
+
+
+
 .header-inner {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  margin-left: 160px;
-  font-weight: bold;
-
+  margin: 20px auto;
+  max-width: 930px;
 }
+
+
+
   
 
 
@@ -29,6 +34,8 @@ img {
   text-decoration: none;
   border: solid;
   padding: 10px;
+  font-size: 34px;
+ 
 }
 
 
@@ -38,7 +45,7 @@ img {
   display: flex;
   list-style: none;
   gap: 30px;
-  margin-right: 160px;
+  
 
   li a {
     color: #000000;
@@ -56,6 +63,11 @@ h2 {
 
 nav a {
   font-size: 21px;
+  
+}
+
+h1 a {
+  font-size: 28px;
 }
 }
 
@@ -71,7 +83,8 @@ nav a {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin: 20px auto;
+  margin: 10px auto;
+  max-width: 930px;
   
 }
 .content {
